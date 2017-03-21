@@ -21,7 +21,7 @@ describe("About Higher Order Functions", function () {
     var numbersPlus1 = _(numbers).map(function(x) { return x + 1 });
 
     expect(numbersPlus1).toEqual(FILL_ME_IN);
-    expect(numbers).toEqual(FILL_ME_IN);
+    expect(numbers).toEqual('Outer');
   });
 
   it("should use 'reduce' to update the same result on each iteration", function () {
@@ -87,4 +87,3 @@ describe("About Higher Order Functions", function () {
   });
 
 });
-
